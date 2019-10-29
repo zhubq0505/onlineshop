@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org/DTD mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hky.onlineshop.dao.ShopCategoryDao">
+	<select id="queryShopCategory" resultType="com.hky.onlineshop.entity.ShopCategory">
+		SELECT
+		shop_category_id,
+		shop_category_name,
+		shop_category_desc,
+		shop_category_img,
+		weight,
+		create_time,
+		last_edit_time,
+		parent_id
+		FROM
+		shop_category
+		<where>
+            <if test="shopCategoryCondition == null">
+                and parent_id is null
+            </if>
+			<if test="shopCategoryCondition!=null">
+				and parent_id is not null
+			</if>
+			<if test="shopCategoryCondition!=null and shopCategoryCondition.parent!=null
+			          and shopCategoryCondition.parent.shopCategoryId != null">
+				and parent_id =
+				#{shopCategoryCondition.parent.shopCategoryId}
+			</if>
+		</where>
+		ORDER BY
+		weight DESC
+	</select>
+	<select id="queryShopCategoryById" resultType="com.hky.onlineshop.entity.ShopCategory">
+        SELECT
+        shop_category_id,
+        shop_category_name,
+        shop_category_desc,
+        shop_category_img,
+        weight,
+        create_time,
+        last_edit_time,
+        parent_id
+        FROM
+        shop_category
+        WHERE
+        shop_category_id=#{shopCategoryId}
+	</select>
+	<select id="queryShopCategoryByIds" resultType="com.hky.onlineshop.entity.ShopCategory">
+        SELECT
+        shop_category_id,
+        shop_category_name,
+        shop_category_desc,
+        shop_category_img,
+        weight,
+        create_time,
+        last_edit_time,
+        parent_id
+        FROM
+        shop_category
+        WHERE shop_category_id IN
+        <foreach collection="list" item="shopCategoryId" open="("
+                 separator="," close=")">
+            #{shopCategoryId}
+         </foreach>	
+	</select>
+	
+	<insert id="insertShopCategory" useGeneratedKeys="true"
+	   keyProperty="shopCategoryId" keyColumn="shop_category_id">
+	   INSERT INTO
+	   shop_category(shop_category_name,shop_category_desc,shop_category_img,weight,
+	   create_time,last_edit_time,parent_id)
+	   VALUES
+	   (#{shopCategoryName},#{shopCategoryDesc},#{shopCategoryImg},#{weight},
+	   #{createTime},#{lastEditTime},#{parent.shopCategoryId})   
+	</insert>
+	
+	<update id="updateShopCategory" parameterType="com.hky.onlineshop.entity.ShopCategory">
+	   UPDATE shop_category
+	   <set>
+	       <if test="shopCategoryName!=null">shop_category_name=#{shopCategoryName},</if>
+	       <if test="shopCategoryDesc!=null">shop_category_desc=#{shopCategoryDesc},</if>
+	       <if test="shopCategoryImg!=null">shop_category_img=#{shopCategoryImg},</if>
+	       <if test="weight!=null">weight=#{weight},</if>
+	       <if test="createTime!=null">create_time=#{createTime},</if>
+	       <if test="lastEditTime!=null">last_edit_time=#{lastEditTime},</if>
+	       <if test="parent!=null and parent.shopCategoryId!=null">parent_id=#{parent.shopCategoryId}</if>
+	   </set>
+	   WHERE
+	   shop_category_id=#{shopCategoryId}
+	</update>
+	
+	<delete id="deleteShopCategory">
+	   DELETE FROM
+	   shop_category
+	   WHERE
+	   shop_category_id=#{shopCategoryId}
+	</delete>
+	<delete id="batchDeleteShopCategory" parameterType="java.util.List">
+	   DELETE FROM
+	   shop_category
+	   WHERE shop_category_id IN
+	   <foreach collection="list" item="shopCategoryId" open="("
+	       separator="," close=")">
+	       #{shopCategoryId}
+	   </foreach>
+	</delete>
+</mapper>

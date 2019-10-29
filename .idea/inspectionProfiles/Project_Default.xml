@@ -1,0 +1,10 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="JspDirectiveInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JspPropertiesInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ReferencesToClassesFromDefaultPackagesInJSPFile" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SelfIncludingJspFiles" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="TaglibDomModelInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
