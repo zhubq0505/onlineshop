@@ -1,9 +1,9 @@
-package java.com.hky.onlineshop.service;
+package com.hky.onlineshop.service;
 
-import java.com.hky.onlineshop.dto.ImageHolder;
-import java.com.hky.onlineshop.dto.ProductExecution;
-import java.com.hky.onlineshop.entity.Product;
-import java.com.hky.onlineshop.exceptions.ProductOperationException;
+import com.hky.onlineshop.dto.ImageHolder;
+import com.hky.onlineshop.dto.ProductExecution;
+import com.hky.onlineshop.entity.Product;
+import com.hky.onlineshop.exceptions.ProductOperationException;
 import java.util.List;
 
 

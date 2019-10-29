@@ -1,6 +1,6 @@
-package java.com.hky.onlineshop.service;
+package com.hky.onlineshop.service;
 
-import java.com.hky.onlineshop.entity.HeadLine;
+import com.hky.onlineshop.entity.HeadLine;
 import java.io.IOException;
 import java.util.List;
 

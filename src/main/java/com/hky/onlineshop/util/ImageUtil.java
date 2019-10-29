@@ -1,6 +1,6 @@
-package java.com.hky.onlineshop.util;
+package com.hky.onlineshop.util;
 
-import java.com.hky.onlineshop.dto.ImageHolder;
+import com.hky.onlineshop.dto.ImageHolder;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;

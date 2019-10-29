@@ -1,11 +1,11 @@
-package java.com.hky.onlineshop.dao;
+package com.hky.onlineshop.dao;
 
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
-import java.com.hky.onlineshop.entity.Product;
+import com.hky.onlineshop.entity.Product;
 import java.util.List;
 
 @Repository

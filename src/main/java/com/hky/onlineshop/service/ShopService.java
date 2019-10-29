@@ -1,10 +1,10 @@
-package java.com.hky.onlineshop.service;
+package com.hky.onlineshop.service;
 
 
-import java.com.hky.onlineshop.dto.ImageHolder;
-import java.com.hky.onlineshop.dto.ShopExecution;
-import java.com.hky.onlineshop.entity.Shop;
-import java.com.hky.onlineshop.exceptions.ShopOperationException;
+import com.hky.onlineshop.dto.ImageHolder;
+import com.hky.onlineshop.dto.ShopExecution;
+import com.hky.onlineshop.entity.Shop;
+import com.hky.onlineshop.exceptions.ShopOperationException;
 
 public interface ShopService {
 	/**

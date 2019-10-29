@@ -2,14 +2,14 @@ package com.hky.onlineshop.service;
 
 import static org.junit.Assert.assertEquals;
 
-import java.com.hky.onlineshop.dto.ImageHolder;
-import java.com.hky.onlineshop.dto.ProductExecution;
-import java.com.hky.onlineshop.entity.Product;
-import java.com.hky.onlineshop.entity.ProductCategory;
-import java.com.hky.onlineshop.entity.Shop;
-import java.com.hky.onlineshop.enums.ProductStateEnum;
-import java.com.hky.onlineshop.exceptions.ShopOperationException;
-import java.com.hky.onlineshop.service.ProductService;
+import com.hky.onlineshop.dto.ImageHolder;
+import com.hky.onlineshop.dto.ProductExecution;
+import com.hky.onlineshop.entity.Product;
+import com.hky.onlineshop.entity.ProductCategory;
+import com.hky.onlineshop.entity.Shop;
+import com.hky.onlineshop.enums.ProductStateEnum;
+import com.hky.onlineshop.exceptions.ShopOperationException;
+import com.hky.onlineshop.service.ProductService;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

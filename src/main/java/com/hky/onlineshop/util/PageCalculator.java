@@ -1,4 +1,4 @@
-package java.com.hky.onlineshop.util;
+package com.hky.onlineshop.util;
 
 public class PageCalculator {
 	public static int calculateRowIndex(int pageIndex, int pageSize){

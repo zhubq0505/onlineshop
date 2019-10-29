@@ -2,8 +2,8 @@ package com.hky.onlineshop.dao;
 
 import static org.junit.Assert.*;
 
-import java.com.hky.onlineshop.dao.AreaDao;
-import java.com.hky.onlineshop.entity.Area;
+import com.hky.onlineshop.dao.AreaDao;
+import com.hky.onlineshop.entity.Area;
 import java.util.List;
 
 import com.hky.onlineshop.BaseTest;

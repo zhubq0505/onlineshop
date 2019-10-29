@@ -1,4 +1,4 @@
-package java.com.hky.onlineshop.util;
+package com.hky.onlineshop.util;
 
 import javax.servlet.http.HttpServletRequest;
 //获取浏览器url中的参数

@@ -1,4 +1,4 @@
-package java.com.hky.onlineshop.exceptions;
+package com.hky.onlineshop.exceptions;
 
 public class ShopOperationException extends RuntimeException{
 	/**

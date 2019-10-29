@@ -1,4 +1,4 @@
-package java.com.hky.onlineshop.controller.frontend;
+package com.hky.onlineshop.controller.frontend;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,7 @@
-package java.com.hky.onlineshop.controller.admin;
+package com.hky.onlineshop.controller.admin;
 
-import java.com.hky.onlineshop.entity.Area;
-import java.com.hky.onlineshop.service.AreaService;
+import com.hky.onlineshop.entity.Area;
+import com.hky.onlineshop.service.AreaService;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

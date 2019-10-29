@@ -2,8 +2,8 @@ package com.hky.onlineshop.service;
 
 import static org.junit.Assert.assertEquals;
 
-import java.com.hky.onlineshop.entity.Area;
-import java.com.hky.onlineshop.service.AreaService;
+import com.hky.onlineshop.entity.Area;
+import com.hky.onlineshop.service.AreaService;
 import java.util.List;
 
 import com.hky.onlineshop.BaseTest;

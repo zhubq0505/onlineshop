@@ -1,8 +1,8 @@
-package java.com.hky.onlineshop.service.Impl;
+package com.hky.onlineshop.service.Impl;
 
-import java.com.hky.onlineshop.dao.ShopCategoryDao;
-import java.com.hky.onlineshop.entity.ShopCategory;
-import java.com.hky.onlineshop.service.ShopCategoryService;
+import com.hky.onlineshop.dao.ShopCategoryDao;
+import com.hky.onlineshop.entity.ShopCategory;
+import com.hky.onlineshop.service.ShopCategoryService;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;

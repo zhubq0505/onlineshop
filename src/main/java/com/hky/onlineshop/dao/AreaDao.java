@@ -1,6 +1,6 @@
-package java.com.hky.onlineshop.dao;
+package com.hky.onlineshop.dao;
 
-import java.com.hky.onlineshop.entity.Area;
+import com.hky.onlineshop.entity.Area;
 import java.util.List;
 
 public interface AreaDao {

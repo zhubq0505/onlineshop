@@ -1,4 +1,4 @@
-package java.com.hky.onlineshop.enums;
+package com.hky.onlineshop.enums;
 
 public enum ProductStateEnum {
 	OFFLINE(-1, "商品非法"), DOWN(0, "商品下架"), SUCESS(1, "操作成功"),

@@ -1,4 +1,4 @@
-package java.com.hky.onlineshop.entity;
+package com.hky.onlineshop.entity;
 
 import java.util.Date;
 

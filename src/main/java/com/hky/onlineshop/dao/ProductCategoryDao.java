@@ -1,6 +1,6 @@
-package java.com.hky.onlineshop.dao;
+package com.hky.onlineshop.dao;
 
-import java.com.hky.onlineshop.entity.ProductCategory;
+import com.hky.onlineshop.entity.ProductCategory;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;

@@ -1,8 +1,8 @@
-package java.com.hky.onlineshop.service.Impl;
+package com.hky.onlineshop.service.Impl;
 
-import java.com.hky.onlineshop.dao.HeadLineDao;
-import java.com.hky.onlineshop.entity.HeadLine;
-import java.com.hky.onlineshop.service.HeadLineService;
+import com.hky.onlineshop.dao.HeadLineDao;
+import com.hky.onlineshop.entity.HeadLine;
+import com.hky.onlineshop.service.HeadLineService;
 import java.io.IOException;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package java.com.hky.onlineshop.enums;
+package com.hky.onlineshop.enums;
 
 /**
  * 商品类别状态枚举类

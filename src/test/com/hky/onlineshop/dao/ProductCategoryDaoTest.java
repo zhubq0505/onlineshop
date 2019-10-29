@@ -2,8 +2,8 @@ package com.hky.onlineshop.dao;
 
 import static org.junit.Assert.assertEquals;
 
-import java.com.hky.onlineshop.dao.ProductCategoryDao;
-import java.com.hky.onlineshop.entity.ProductCategory;
+import com.hky.onlineshop.dao.ProductCategoryDao;
+import com.hky.onlineshop.entity.ProductCategory;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

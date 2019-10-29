@@ -1,8 +1,8 @@
-package java.com.hky.onlineshop.service;
+package com.hky.onlineshop.service;
 
-import java.com.hky.onlineshop.dto.ProductCategoryExecution;
-import java.com.hky.onlineshop.entity.ProductCategory;
-import java.com.hky.onlineshop.exceptions.ProductCategoryOperationException;
+import com.hky.onlineshop.dto.ProductCategoryExecution;
+import com.hky.onlineshop.entity.ProductCategory;
+import com.hky.onlineshop.exceptions.ProductCategoryOperationException;
 import java.util.List;
 
 

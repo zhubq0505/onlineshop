@@ -1,12 +1,12 @@
-package java.com.hky.onlineshop.service.Impl;
+package com.hky.onlineshop.service.Impl;
 
-import java.com.hky.onlineshop.dao.ProductCategoryDao;
-import java.com.hky.onlineshop.dao.ProductDao;
-import java.com.hky.onlineshop.dto.ProductCategoryExecution;
-import java.com.hky.onlineshop.entity.ProductCategory;
-import java.com.hky.onlineshop.enums.ProductCategoryStateEnum;
-import java.com.hky.onlineshop.exceptions.ProductCategoryOperationException;
-import java.com.hky.onlineshop.service.ProductCategoryService;
+import com.hky.onlineshop.dao.ProductCategoryDao;
+import com.hky.onlineshop.dao.ProductDao;
+import com.hky.onlineshop.dto.ProductCategoryExecution;
+import com.hky.onlineshop.entity.ProductCategory;
+import com.hky.onlineshop.enums.ProductCategoryStateEnum;
+import com.hky.onlineshop.exceptions.ProductCategoryOperationException;
+import com.hky.onlineshop.service.ProductCategoryService;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;

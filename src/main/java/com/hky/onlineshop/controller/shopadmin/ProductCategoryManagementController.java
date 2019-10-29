@@ -1,12 +1,12 @@
-package java.com.hky.onlineshop.controller.shopadmin;
+package com.hky.onlineshop.controller.shopadmin;
 
-import java.com.hky.onlineshop.dto.ProductCategoryExecution;
-import java.com.hky.onlineshop.dto.Result;
-import java.com.hky.onlineshop.entity.ProductCategory;
-import java.com.hky.onlineshop.entity.Shop;
-import java.com.hky.onlineshop.enums.ProductCategoryStateEnum;
-import java.com.hky.onlineshop.exceptions.ProductCategoryOperationException;
-import java.com.hky.onlineshop.service.ProductCategoryService;
+import com.hky.onlineshop.dto.ProductCategoryExecution;
+import com.hky.onlineshop.dto.Result;
+import com.hky.onlineshop.entity.ProductCategory;
+import com.hky.onlineshop.entity.Shop;
+import com.hky.onlineshop.enums.ProductCategoryStateEnum;
+import com.hky.onlineshop.exceptions.ProductCategoryOperationException;
+import com.hky.onlineshop.service.ProductCategoryService;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;

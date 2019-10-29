@@ -1,4 +1,4 @@
-package java.com.hky.onlineshop.dto;
+package com.hky.onlineshop.dto;
 
 /**
  * 封装json对象，所有返回结果均可使用

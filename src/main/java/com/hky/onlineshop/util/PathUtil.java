@@ -1,4 +1,4 @@
-package java.com.hky.onlineshop.util;
+package com.hky.onlineshop.util;
 
 public class PathUtil {
 	private static String separator = System.getProperty("file.separator");

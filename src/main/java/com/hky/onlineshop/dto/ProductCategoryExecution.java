@@ -1,8 +1,8 @@
-package java.com.hky.onlineshop.dto;
+package com.hky.onlineshop.dto;
 
-import java.com.hky.onlineshop.entity.ProductCategory;
-import java.com.hky.onlineshop.entity.Shop;
-import java.com.hky.onlineshop.enums.ProductCategoryStateEnum;
+import com.hky.onlineshop.entity.ProductCategory;
+import com.hky.onlineshop.entity.Shop;
+import com.hky.onlineshop.enums.ProductCategoryStateEnum;
 import java.util.List;
 
 /**

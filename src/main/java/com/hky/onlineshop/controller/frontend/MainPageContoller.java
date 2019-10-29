@@ -1,9 +1,9 @@
-package java.com.hky.onlineshop.controller.frontend;
+package com.hky.onlineshop.controller.frontend;
 
-import java.com.hky.onlineshop.entity.HeadLine;
-import java.com.hky.onlineshop.entity.ShopCategory;
-import java.com.hky.onlineshop.service.HeadLineService;
-import java.com.hky.onlineshop.service.ShopCategoryService;
+import com.hky.onlineshop.entity.HeadLine;
+import com.hky.onlineshop.entity.ShopCategory;
+import com.hky.onlineshop.service.HeadLineService;
+import com.hky.onlineshop.service.ShopCategoryService;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

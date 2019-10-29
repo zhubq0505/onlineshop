@@ -1,4 +1,4 @@
-package java.com.hky.onlineshop.dto;
+package com.hky.onlineshop.dto;
 
 import java.io.InputStream;
 
