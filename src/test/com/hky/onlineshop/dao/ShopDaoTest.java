@@ -2,7 +2,6 @@ package com.hky.onlineshop.dao;
 
 import static org.junit.Assert.assertEquals;
 
-import com.hky.onlineshop.dao.ShopDao;
 import com.hky.onlineshop.entity.Area;
 import com.hky.onlineshop.entity.Shop;
 import com.hky.onlineshop.entity.ShopCategory;
@@ -22,7 +21,6 @@ public class ShopDaoTest extends BaseTest {
 	private ShopDao shopDao;
 
 	@Test
-	@Ignore
 	public void testInsertShop() {
 		Shop shop = new Shop();
 		UserInfo owner = new UserInfo();

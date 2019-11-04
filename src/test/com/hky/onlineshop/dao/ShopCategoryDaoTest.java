@@ -3,7 +3,6 @@ package com.hky.onlineshop.dao;
 
 import static org.junit.Assert.assertEquals;
 
-import com.hky.onlineshop.dao.ShopCategoryDao;
 import com.hky.onlineshop.entity.ShopCategory;
 import java.util.Date;
 import java.util.List;
@@ -28,7 +27,6 @@ public class ShopCategoryDaoTest extends BaseTest {
 	}
 	
 	@Test
-	@Ignore
 	public void testAInsertShopCategory(){
 		ShopCategory sc = new ShopCategory();
 		sc.setShopCategoryName("美食");

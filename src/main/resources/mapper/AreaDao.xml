@@ -8,4 +8,12 @@
 		FROM area
 		ORDER BY weight DESC
 	</select>
+
+    <insert id="insertArea" parameterType="com.hky.onlineshop.entity.Area"
+            useGeneratedKeys="true" keyProperty="areaId" keyColumn="area_id">
+        INSERT INTO
+		area(area_name,weight,create_time,last_edit_time)
+		VALUES
+		(#{areaName},#{weight},#{createTime},#{lastEditTime})
+    </insert>
 </mapper>

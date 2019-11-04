@@ -9,4 +9,5 @@ public interface AreaDao {
      * @return
      */
     List<Area> queryArea();
+    int insertArea(Area area);
 }
