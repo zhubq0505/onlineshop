@@ -236,7 +236,10 @@ public class ShopManagementController {
 		}
 		// 2注册店铺
 		if (shop != null && shopImg != null) {
-			UserInfo owner = (UserInfo) request.getSession().getAttribute("user");
+			UserInfo owner = new UserInfo();
+			owner.setUserId(1L);
+			request.setAttribute("user", owner);
+//			UserInfo owner = (UserInfo) request.getSession().getAttribute("user");
 			// Session提取:一个浏览器独占一个Session对象
 			shop.setOwner(owner);
 
